@@ -10,6 +10,6 @@ export class HousingService {
   constructor(private httpClient: HttpClient) { }
 
   getProperties(): Observable<any> {
-    return this.httpClient.get('data/properties.json')
+    return this.httpClient.get('http://localhost:9000/api/properties');
   }
 }
