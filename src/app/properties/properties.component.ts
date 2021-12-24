@@ -12,13 +12,8 @@ export class PropertiesComponent implements OnInit {
   constructor(private service: HousingService) {}
 
   ngOnInit(): void {
-    this.service.getProperties().subscribe(
-      (data) => {
-        this.properties = data;
-      },
-      (error) => {
-        console.log(error);
-      }
-    );
+    this.service.getProperties().subscribe((data) => {
+      this.properties = data;
+    });
   }
 }
