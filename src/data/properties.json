@@ -1,36 +1,48 @@
 [
   {
     "id": "1",
+    "sellRent": 1,
+    "imgUrl": "blank-house.jpg",
     "name": "Leo House",
     "type": "Family House",
     "price": "120.000"
   },
   {
     "id": "2",
+    "sellRent": 1,
+    "imgUrl": "blank-house.jpg",
     "name": "Foo Space",
     "type": "Ville",
     "price": "350.000"
   },
   {
     "id": "3",
+    "sellRent": 1,
+    "imgUrl": "blank-house.jpg",
     "name": "Mickey Hole",
     "type": "Shity House",
     "price": "2.000"
   },
   {
     "id": "4",
+    "sellRent": 1,
+    "imgUrl": "blank-house.jpg",
     "name": "Bazz House",
     "type": "Big House",
     "price": "200.000"
   },
   {
     "id": "5",
+    "sellRent": 2,
+    "imgUrl": "blank-house.jpg",
     "name": "Jack Hole",
     "type": "Shity House",
     "price": "2.000"
   },
   {
     "id": "6",
+    "sellRent": 1,
+    "imgUrl": "blank-house.jpg",
     "name": "Pluto House",
     "type": "Big House",
     "price": "200.000"
